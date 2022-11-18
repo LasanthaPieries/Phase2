@@ -1,0 +1,250 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1650000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "phase2_stepdefs.Phase2Login.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 258000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter correct username and password",
+            "match": {
+              "location": "phase2_stepdefs.Phase2Login.i_enter_correct_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 206000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the login button",
+            "match": {
+              "location": "phase2_stepdefs.Phase2Login.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-18T20:17:24.822Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2272000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "phase2_stepdefs.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Adding a given product to the cart",
+        "description": "",
+        "id": "home-feature-scenario;adding-a-given-product-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 187000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "phase2_stepdefs.Hooks.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 139000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on product \"Sauce Labs Backpack\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 19
+                }
+              ],
+              "location": "phase2_stepdefs.Phase2Home.i_click_on_product(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Add button",
+            "match": {
+              "location": "phase2_stepdefs.Phase2Home.i_click_on_Add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The product should be available in the cart",
+            "match": {
+              "location": "phase2_stepdefs.Phase2Home.the_product_should_be_available_in_the_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Home Feature Scenario",
+    "description": "",
+    "id": "home-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/phase2_features/Phase2Home.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1701000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "phase2_stepdefs.Phase2Login.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-18T20:17:29.849Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1306000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "phase2_stepdefs.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "This scenario defines positive login",
+        "description": "",
+        "id": "login-feature-scenario;this-scenario-defines-positive-login",
+        "after": [
+          {
+            "result": {
+              "duration": 162000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "phase2_stepdefs.Hooks.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 226000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter correct username and password",
+            "match": {
+              "location": "phase2_stepdefs.Phase2Login.i_enter_correct_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the login button",
+            "match": {
+              "location": "phase2_stepdefs.Phase2Login.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see shopping cart container as \"shopping_cart_container\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shopping_cart_container\"",
+                  "offset": 40
+                }
+              ],
+              "location": "phase2_stepdefs.Phase2Login.i_should_see_shopping_cart_container_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature Scenario",
+    "description": "",
+    "id": "login-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/phase2_features/Phase2Login.feature",
+    "tags": []
+  }
+]
