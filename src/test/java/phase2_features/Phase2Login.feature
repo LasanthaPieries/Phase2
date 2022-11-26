@@ -3,7 +3,7 @@ Feature: Login Feature Scenario
   Background: 
     Given I have launched the application
 
-	@sanity
+  @sanity
   Scenario: This scenario defines positive login
     When I enter correct username and password
     And I click on the login button
